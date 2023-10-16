@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+@import url(reset.css);
+@font-face {
+    font-family: 'GangwonEduHyeonokT_OTFMediumA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduHyeonokT_OTFMediumA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GilbeotRainbow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/GilbeotRainbow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+    font-family: 'GilbeotRainbow';
+    font-size: 62.5%;
+}
+.inner {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+h3 {
+    font-size: 6rem;
+}
+.mobile {
+    display: none;
+}
+header {
+    height: 100px;
+    background-color: #FEC67A;
+    border-bottom: 1px solid #333;
+    font-size: 1.6rem;
+}
+header .inner {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .inner h1 {
+    height: 60px;
+}
+header .inner h1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header .inner .pc .gnb .depth01 {
+    float: left;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+}
+header .inner .pc .gnb .depth01 > a {
+    width: 100px;
+    line-height: 100px;
+    display: block;
+    font-weight: bold;
+}
+header .inner .pc .gnb .depth01 .depth02 {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: #FEC67A;
+    border: 1px solid #333;
+    display: none;
+}
+header .inner .pc .gnb .depth01 .depth02 li {
+    padding: 5px 0;
+}
+header .inner .pc .gnb .depth01 .depth02 li:hover {
+    background-color: #fff;
+}
+header .inner .icon ul {
+    display: flex;
+}
+header .inner .icon ul li {
+    margin-right: 20px;
+}
+.main_visual {
+    background-color: #FEC67A;
+    height: 100vh;
+    position: relative;
+}
+.main_visual .visual div {
+    max-width: 1440px;
+    width: calc(100% - 30px);
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+.main_visual .visual div p {
+    font-size: 3.2rem;
+}
+.main_visual .visual div h2 {
+    font-size: 12rem;
+}
+.main_visual .visual div a {
+    width: 125px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #333;
+    display: block;
+    font-size: 2rem;
+    background-color: #fff;
+}
+.main_visual .right {
+    float: right;
+    max-width: 1300px;
+    width: calc(100% - 300px);
+    height: calc(100vh - 100px);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 50px;
+}
+.main_visual .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cont01 .inner {
+    margin-top: 150px;
+    text-align: center;
+}
+.cont01 .inner .list {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.cont01 .inner .list .item {
+    width: calc(100% / 3 - 20px);
+}
+.cont01 .inner .list .item strong {
+    font-size: 1.6rem;
+}
+.cont01 .inner .list .item .con {
+    height: 2px;
+    background-color: #333;
+    border: 0;
+}
+.cont01 .inner .list .item div h4 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+.cont01 .inner .list .item div img {
+    width: 100%;
+    max-height: 430px;
+    height: 29.86vw;
+    object-fit: cover;
+}
+.cont01 .inner .list .cont1 div {
+    max-width: 456px;
+    max-height: 611px;
+    height: 42.43vw;
+    border: 2px solid #333;
+    display: block;
+}
+.cont01 .inner .list .item div p {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+.cont01 .inner .list .item div  span {
+    font-size: 1.6rem;
+}
+.cont01 .inner .list .cont {
+    vertical-align: middle;
+    margin-top: 100px;
+}
